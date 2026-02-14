@@ -1,5 +1,5 @@
 We have to make sure on strategy A, when the entry is MA_200 and MA_200 dips, we wait till rsi_ma50 >= 55 and then exit on market order immediately (as opposed to triggereing the stop-loss condition).
 
-We also need to check that under strategy A, when MA_200 first ascends past / tops / climbs over fibo_0.764 for the first time, MA_350 and MA_500 ought to be less than fibo_0.764 to proceed otherwise exit immediately. Also, if MA_350 / 500 crosses fibo_0.764 before MA_200, wait till rsi >= 55 then exit immediately.
+When MA_350/500 ascends over fibo_0.764 before MA_200, sometimes it is purely an acsension and at times it is the fibo adjustment, either way, it is provisional. We have to wait till all lss than MA_200 MA's (MA_100, 50, etc) are less than MA_200 and they together with MA_200 are less than fibo_0.764 and since the level is at the top, we wait till rsi_ma50 >= 55 then rsi_ma50 <= 51 and then exit.
 
-On that MA_100_500 dip validaion test after it has crossed MA_200, and that dip occurs <= fibo_0.764 we have to ensure the dip occurs >= fibo_0.618 (both MA >= fibo_0.618) to continue else exit at market order.
+On that MA_100_500 dip validaion test after it has crossed MA_200 {that that marks the entry}, and that dip occurs <= fibo_0.764 we have to ensure the dip occurs >= fibo_0.618 (both MA >= fibo_0.618) to continue else exit at market order.
