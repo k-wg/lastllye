@@ -1,6 +1,6 @@
 We ought to focus on MA_350 and MA_500 as they offer the strongest and most consistent signals over time. 
-	**That special signal considration (spotted on MA_500) is once MA_500 tops / ascends over fibo_0.236, we wait for either MA_50<= fibo_0.5 (enter) or MA_500 >= fibo_0.618 (no_entry).
+	**That special signal considration (spotted on MA_500) is once MA_500 tops / ascends over fibo_0.236, we wait for either MA_50<= fibo_0.318 (enter) or MA_500 >= fibo_0.618 (no_entry).
 
 The stop_loss trigger ought to be MA_100 instead of MA_50 to remove / eliminate the 'technicalities'. Afterall, when MA_50 truly dips, MA_100 dips too.
 
-When MA_350 / 500 tops fibo_0.764 before MA_200, we listen till MA_200 <= fibo_0.764 and then exit.
+When MA_350 / 500 tops fibo_0.764 before MA_200, we listen till all less than MA_200 {eg MA_100, 50, etc} are both less than MA_200 and they all {together with that MA_200} <= fibo_0.764 and then exit.
